@@ -3,5 +3,6 @@ image:
 
 tasks:
   - init: |
-      terraform version
       pulumi version
+      node --version
+      az --version
